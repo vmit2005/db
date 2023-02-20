@@ -1,0 +1,19 @@
+https://github.com/Helen-prog/Python228
+SELECT * from T1;
+Select FName, ORab from t1 where ORab>5  ; 
+Select FName,ZP, ORab from t1 where ORab>3 and ZP<700  ; 
+Select FName,ZP, ORab from t1 where ORab>13 OR ZP<700  ; 
+Select * from t1 where ZP>1000 and ZP<2000  ;
+Select * from t1 where ZP BETWEEN 1000 and 2200  ;
+Select * from t1 where ZP NOT BETWEEN 1000 and 2200  ;
+SELECT * from T1 where Doljnost LIKE "Переводчик";
+SELECT FName from T1 where FName LIKE "Пе%";
+SELECT FName from T1 where FName LIKE "%ов";
+SELECT FName from T1 where FName GLOB "[ПЕ]*";
+SELECT FName from T1 where FName GLOB "*[ПЕпе]*";
+SELECT FName, ZP from T1 where ZP is not null;
+SELECT DISTINCT ZP  from T1  where  Doljnost== "Менеджер";
+SELECT DISTINCT ZP  from T1  where  Doljnost== "Оператор" and ORab<3;
+SELECT DISTINCT *  from T1  where  (Doljnost== "Оператор" OR Doljnost=="Секретарь" ) and ORab>2
+
+https://github.com/Helen-prog/Python228/blob/master/db.txt
