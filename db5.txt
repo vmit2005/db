@@ -137,3 +137,5 @@ Where s.INNSeller=SG.INNSeller AND cg.ID=SG.ID AND c.INNClient=cg.INNClient AND 
 ORDER by SG.Goods
 
 
+
+
